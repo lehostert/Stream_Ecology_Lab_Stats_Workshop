@@ -74,3 +74,9 @@ VSURF(ENS$ENS_0~., data = envi, ntree = 5000, mtry = 4, parallel = TRUE)
 ###  The following code runs VSURF 
 
 test <- VSURF(envi, ENS$ENS_0)
+plot(test)
+summary(test)
+names(envi)
+test$varselect.thres
+
+colnames(envi[60])
