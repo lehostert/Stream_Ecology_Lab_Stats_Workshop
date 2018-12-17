@@ -6,7 +6,7 @@ library(randomForest)
 ENS <- read.csv("ENS.txt", header = TRUE, row.names = 1, stringsAsFactors = FALSE)
 envi <- read.csv("Envi.txt", header = TRUE, row.names = 1, stringsAsFactors = FALSE)
 
-ENS_all <-full_join(ENS,ENVI)
+##ENS_all <-full_join(ENS,ENVI)
 ###### Classification tree
 
 ### Creates the tree from the first f=placE)
