@@ -23,10 +23,10 @@ envi <- read.csv("Envi.txt", header = TRUE, row.names = 1, stringsAsFactors = FA
   plot(prune.tree(tree_1,best = 4)) 
 text(prune.tree(tree_1,best = 4))
 
-#### The final plots demonstrate that the length of the 
-## The advantages of trees is that not all variables are eqaully important accorss the board
-## For example DO in a fast moving stream however in slower moving streams it becomes a very important
-## So on local levels 
+#### The final plots demonstrate that the length of the tree legs (the vertical parts) give some indication to the RVI. 
+## The advantages of trees is that not all variables are equally important accorss the board
+## For example DO mg/L in a fast moving stream not a big factor however in slower moving streams it becomes a very important
+## So on local levels the realtive importance of variables might shift. 
 
 ##### Random Forest
 
