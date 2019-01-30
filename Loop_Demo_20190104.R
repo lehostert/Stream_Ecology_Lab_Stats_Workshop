@@ -10,9 +10,9 @@ metrics_list_LEH <- read.table("metrics_list.txt", header = T, stringsAsFactors 
   as.matrix()
 #### This file must be a matrix in order to use it in the loop
 #### try to add data to the RF command in order to get around the "attach" function
-for (variable in vector) {
-  
-}
+# for (variable in vector) {
+#   
+# }
 
 sink("Metrics_RF_Result_LEH.txt")
 
