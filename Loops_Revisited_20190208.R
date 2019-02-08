@@ -44,6 +44,14 @@ print(factorial)
 }
 
 factorial
+#####################################
+
+for (i in 1:10) {
+  (!i %% 2)
+  
+}
+
+
 
 #  
 # for (i in metrics_list_LEH)
