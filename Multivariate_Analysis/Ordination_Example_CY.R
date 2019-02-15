@@ -4,8 +4,9 @@
 # 11 super-samples, to which stress is applied.    
 
 # input taxa data and tolerance values
-macro.dat<-read.table("G:/Five_assemblages.txt",sep=",",header=T,row.names="Taxa")
-TV.dat<-read.table("G:/TV.txt", sep=",",header=T,row.names="Taxa")
+# macro.dat <-read.csv("~/Documents/GitHub/Stats_Workshop_SEL/Multivariate_Analysis/five_assemblages.csv",header=T,row.names="Sample")
+macro.dat<-read.table("~/Documents/GitHub/Stats_Workshop_SEL/Multivariate_Analysis/Five_assemblages.txt",sep=",",header=T,row.names="Taxa")
+TV.dat <- read.table("~/Documents/GitHub/Stats_Workshop_SEL/Multivariate_Analysis/TV.txt", sep=",",header=T,row.names="Taxa")
 attach(macro.dat)
 attach(TV.dat)
 
@@ -13,12 +14,18 @@ attach(TV.dat)
 
 X<-as.matrix(macro.dat)
 
+##Note that this creates a matrix exactly the same size as X but it is an empty matrix. 
+##Dimensions of X but all 0 values.
 Y<-(X-X)
 
 all<-X
 
+#Set stress level 'c' to a constant
 c<-0.2
 
+# j taxa data i from Tolance Value data, X is the original abundance of sample i in sample j
+# The purpose is to see how abundace of taxa changes with changing Tolerance Value 
+# [TV] calls the TV column from the attached TV.dat data set
 for (k in 1:10)
 {
   
@@ -35,7 +42,6 @@ for (k in 1:10)
   c<-(c+0.2)
   all<-rbind(all,Y)
 }
-
 
 
 # combine site super-samples into assemblage
@@ -68,10 +74,10 @@ for (m in 45:55){
 all_s<-0
 all_s<-cbind(CM,GM,MK,PT,TP)
 
-
-
 # summarize simulated assemblages changes across 11 stress levels and at five sites 
 # in terms of total abundance (TOTAL) and species richness (SR), on which Appendix 1 is based on.
+# i controls q value to calc.?? ENS 
+# Treat assemblage at each assemblage separately.
 
 total<-matrix(0,11,5)
 sr<-matrix(0,11,5)
