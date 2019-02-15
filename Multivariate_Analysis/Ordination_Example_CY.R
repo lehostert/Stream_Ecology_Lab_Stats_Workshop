@@ -1,12 +1,13 @@
-# Ordination Technique Script from Dr. Yong Cao.
+# Loops_and_ENS_Example Script from Dr. Yong Cao.
 # this program simulates the changes of assemblages from 5 prinstine stream sites along a stress gradient (C)
 # based on the estimated tolerance values of individual macroinvertebrate taxa (TV). Each assembalges are consited of 
 # 11 super-samples, to which stress is applied.    
 
 # input taxa data and tolerance values
-# macro.dat <-read.csv("~/Documents/GitHub/Stats_Workshop_SEL/Multivariate_Analysis/five_assemblages.csv",header=T,row.names="Sample")
-macro.dat<-read.table("~/Documents/GitHub/Stats_Workshop_SEL/Multivariate_Analysis/Five_assemblages.txt",sep=",",header=T,row.names="Taxa")
-TV.dat <- read.table("~/Documents/GitHub/Stats_Workshop_SEL/Multivariate_Analysis/TV.txt", sep=",",header=T,row.names="Taxa")
+
+# macro.dat <-read.csv("~/GitHub/Stats_Workshop_SEL/Multivariate_Analysis/Five_assemblages_macro.csv",header=T,row.names="Taxa")
+macro.dat<-read.table("~/GitHub/Stats_Workshop_SEL/Multivariate_Analysis/Five_assemblages_macro.txt",sep=",",header=T,row.names="Taxa")
+TV.dat <- read.table("~/GitHub/Stats_Workshop_SEL/Multivariate_Analysis/TV.txt", sep=",",header=T,row.names="Taxa")
 attach(macro.dat)
 attach(TV.dat)
 
@@ -14,8 +15,9 @@ attach(TV.dat)
 
 X<-as.matrix(macro.dat)
 
-##Note that this creates a matrix exactly the same size as X but it is an empty matrix. 
-##Dimensions of X but all 0 values.
+##Note that Y < (X-X) this creates a matrix exactly the same size as X but it is an empty matrix. 
+##In other words Dimensions of X but all 0 values.
+## X and x (captial/big and lowercase/small) are treated as completely different things by R be careful which one you type
 Y<-(X-X)
 
 all<-X
@@ -76,8 +78,7 @@ all_s<-cbind(CM,GM,MK,PT,TP)
 
 # summarize simulated assemblages changes across 11 stress levels and at five sites 
 # in terms of total abundance (TOTAL) and species richness (SR), on which Appendix 1 is based on.
-# i controls q value to calc.?? ENS 
-# Treat assemblage at each assemblage separately.
+### It is unclear what the k loop does. 
 
 total<-matrix(0,11,5)
 sr<-matrix(0,11,5)
