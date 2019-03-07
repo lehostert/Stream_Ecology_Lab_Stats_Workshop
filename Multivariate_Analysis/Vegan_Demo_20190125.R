@@ -3,7 +3,7 @@ library(vegan)
 
 data(BCI)
 
-fsh <- read.csv("~/Documents/Github/Stats_Workshop_SEL/Multivariate_Analysis/five_assemblages.csv", header = T, na = ".", row.names = 1)
+fsh <- read.csv("~/Github/Stats_Workshop_SEL/Multivariate_Analysis/five_assemblages_fish.csv", header = T, na = ".", row.names = 1)
 LTEF <- read.csv("~/Documents/Github/Stats_Workshop_SEL/Multivariate_Analysis/LTEF_fish_data.csv", header = T, na = ".", row.names = 1)
 
 ##NMDS 
