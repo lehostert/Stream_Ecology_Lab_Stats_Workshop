@@ -3,8 +3,8 @@ library(tree)
 library(VSURF)
 library(randomForest)
 
-ENS <- read.csv("C:/Users/lhostert/Documents/GitHub/Stats_Workshop_SEL/ENS.txt", header = TRUE, row.names = 1, stringsAsFactors = FALSE)
-envi <- read.csv("C:/Users/lhostert/Documents/GitHub/Stats_Workshop_SEL/Envi.txt", header = TRUE, row.names = 1, stringsAsFactors = FALSE)
+ENS <- read.csv("C:/Users/lhostert/Documents/GitHub/Stats_Workshop_SEL/Data/ENS.txt", header = TRUE, row.names = 1, stringsAsFactors = FALSE)
+envi <- read.csv("C:/Users/lhostert/Documents/GitHub/Stats_Workshop_SEL/Data/Envi.txt", header = TRUE, row.names = 1, stringsAsFactors = FALSE)
 
 ##ENS_all <-full_join(ENS,ENVI)
 ###### Classification tree
