@@ -1,5 +1,5 @@
 
-.DS_Store
-Multivariate_Analysis/.Rapp.history
-.DS_Store
-.DS_Store
+*.DS_Store
+*.Rapp.history
+*.RData
+*.Rhistory
