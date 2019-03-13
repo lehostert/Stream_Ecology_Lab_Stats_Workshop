@@ -8,9 +8,9 @@ library(randomForest)
 # metrics_list_LEH <- read.table("metrics_list.txt", header = T, stringsAsFactors = F) %>%
 #   as.matrix()
 
-cal <- read.csv("Cal_85_env.csv", header = T, row.names = "Site")
-envi <- read.csv("Envion_46443_reaches.csv", header = T, row.names = "Reach")
-mussel <- read.csv("Mussel_binary_environ.csv", header = T, row.names = "EPA_Code")
+cal <- read.csv("C:/Users/lhostert/Documents/GitHub/Stats_Workshop_SEL/Data/Cal_85_env.csv", header = T, row.names = "Site")
+envi <- read.csv("C:/Users/lhostert/Documents/GitHub/Stats_Workshop_SEL/Data/Envion_46443_reaches.csv", header = T, row.names = "Reach")
+mussel <- read.csv("C:/Users/lhostert/Documents/GitHub/Stats_Workshop_SEL/Data/Mussel_binary_environ.csv", header = T, row.names = "EPA_Code")
 cal$G11 <- as.factor(cal$G11)
 
 ### mussel = Illinois State Mussel Survey 2010-2017. 917 sites fall into wadable
