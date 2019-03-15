@@ -1,0 +1,82 @@
+PU_Gap_Code,Reach_Name,Event_Date,Fish_Species_Code,Fish_Species_Count,Site_Type
+kasky1747,Coffeen Main 1,6/20/2017,BLS,16,student_project
+kasky1747,Coffeen Main 1,6/20/2017,COS,17,student_project
+kasky1747,Coffeen Main 1,6/20/2017,CRC,25,student_project
+kasky1747,Coffeen Main 1,6/20/2017,CCS,5,student_project
+kasky1747,Coffeen Main 1,6/20/2017,GOS,1,student_project
+kasky1747,Coffeen Main 1,6/20/2017,JOD,4,student_project
+kasky1747,Coffeen Main 1,6/20/2017,SJM,2,student_project
+kasky1747,Coffeen Main 1,6/20/2017,YEB,8,student_project
+kasky1833,Coffeen Res 1,6/21/2017,BLG,19,student_project
+kasky1833,Coffeen Res 1,6/21/2017,BLS,1,student_project
+kasky1833,Coffeen Res 1,6/21/2017,CRC,38,student_project
+kasky1833,Coffeen Res 1,6/21/2017,GSF,13,student_project
+kasky1833,Coffeen Res 1,6/21/2017,LOS,4,student_project
+kasky1833,Coffeen Res 1,6/21/2017,MOF,8,student_project
+kasky1833,Coffeen Res 1,6/21/2017,SAS,1,student_project
+kasky1833,Coffeen Res 1,6/21/2017,YEB,2,student_project
+kasky1703,Coffeen Res 2,6/21/2017,BLT,1,student_project
+kasky1703,Coffeen Res 2,6/21/2017,BLG,57,student_project
+kasky1703,Coffeen Res 2,6/21/2017,GOS,1,student_project
+kasky1703,Coffeen Res 2,6/21/2017,GSF,140,student_project
+kasky1703,Coffeen Res 2,6/21/2017,LOS,12,student_project
+kasky1703,Coffeen Res 2,6/21/2017,MOF,48,student_project
+kasky1703,Coffeen Res 2,6/21/2017,YEB,14,student_project
+kasky12,Copper 1,8/3/2016,BLG,636,random
+kasky12,Copper 1,8/3/2016,COS,1,random
+kasky12,Copper 1,8/3/2016,CRC,54,random
+kasky12,Copper 1,8/3/2016,GSF,17,random
+kasky12,Copper 1,8/3/2016,JOD,37,random
+kasky12,Copper 1,8/3/2016,LMB,170,random
+kasky12,Copper 1,8/3/2016,ORD,5,random
+kasky12,Copper 1,8/3/2016,PRP,1,random
+kasky12,Copper 1,8/3/2016,RSF,5,random
+kasky12,Copper 1,8/3/2016,SHD,1,random
+kasky12,Copper 1,8/3/2016,WHS,69,random
+kasky12,Copper 1,8/3/2016,YEB,3,random
+kasky12,Copper 1,7/7/2017,BLG,123,random
+kasky12,Copper 1,7/7/2017,CAP,4,random
+kasky12,Copper 1,7/7/2017,CRC,14,random
+kasky12,Copper 1,7/7/2017,GSF,14,random
+kasky12,Copper 1,7/7/2017,JOD,4,random
+kasky12,Copper 1,7/7/2017,LMB,144,random
+kasky12,Copper 1,7/7/2017,RSF,17,random
+kasky12,Copper 1,7/7/2017,YLB,1,random
+kasky12,Copper 1,7/7/2017,YEB,1,random
+kasky1199,kasky1199,8/4/2015,BMS,20,random
+kasky1199,kasky1199,8/4/2015,BLT,4,random
+kasky1199,kasky1199,8/4/2015,BLG,23,random
+kasky1199,kasky1199,8/4/2015,BLS,44,random
+kasky1199,kasky1199,8/4/2015,BRS,9,random
+kasky1199,kasky1199,8/4/2015,COS,4,random
+kasky1199,kasky1199,8/4/2015,CCF,6,random
+kasky1199,kasky1199,8/4/2015,CRC,1,random
+kasky1199,kasky1199,8/4/2015,GZS,30,random
+kasky1199,kasky1199,8/4/2015,GOR,6,random
+kasky1199,kasky1199,8/4/2015,GSF,21,random
+kasky1199,kasky1199,8/4/2015,JOD,3,random
+kasky1199,kasky1199,8/4/2015,LMB,3,random
+kasky1199,kasky1199,8/4/2015,LOS,5,random
+kasky1199,kasky1199,8/4/2015,ULL,2,random
+kasky1199,kasky1199,8/4/2015,RES,18,random
+kasky1199,kasky1199,8/4/2015,RDS,6,random
+kasky1199,kasky1199,8/4/2015,SAS,19,random
+kasky1199,kasky1199,8/4/2015,SHR,2,random
+kasky1199,kasky1199,8/4/2015,SJM,9,random
+kasky1199,kasky1199,8/4/2015,SUM,4,random
+kasky1199,kasky1199,8/4/2015,YEB,2,random
+kasky12,kasky12,6/24/2013,BLT,3,random
+kasky12,kasky12,6/24/2013,BLG,70,random
+kasky12,kasky12,6/24/2013,BLS,1,random
+kasky12,kasky12,6/24/2013,CAP,3,random
+kasky12,kasky12,6/24/2013,CRC,25,random
+kasky12,kasky12,6/24/2013,FRM,1,random
+kasky12,kasky12,6/24/2013,GSF,18,random
+kasky12,kasky12,6/24/2013,HOC,3,random
+kasky12,kasky12,6/24/2013,LMB,54,random
+kasky12,kasky12,6/24/2013,ORD,1,random
+kasky12,kasky12,6/24/2013,RSF,2,random
+kasky12,kasky12,6/24/2013,RDS,9,random
+kasky12,kasky12,6/24/2013,SJM,11,random
+kasky12,kasky12,6/24/2013,STS,1,random
+kasky12,kasky12,6/24/2013,YEB,6,random
