@@ -5,8 +5,8 @@ library(vegan)
 # Allows you to do things similar tobase R but makes the syntax consistent
 
 # readxl
-file_path <- "~/GitHub/Stream_Ecology_Lab_Stats_Workshop/Tidyverse/Example_Fish_Data.xlsx"
-# file_path <- "C:/Users/lhostert/Documents/GitHub/Stats_Workshop_SEL/Data/ENS.txt"
+# pc file_path <- "~/GitHub/Stream_Ecology_Lab_Stats_Workshop/Tidyverse/Example_Fish_Data.xlsx"
+file_path <- "~/Documents/GitHub/Stream_Ecology_Lab_Stats_Workshop/Tidyverse/Example_Fish_Data.xlsx"
 
 #Load xlsx files or xls files directly. Call the sheet # or the Sheet name. 
 fish <- readxl::read_excel(file_path, sheet = "Fish" )
