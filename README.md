@@ -24,3 +24,4 @@
 ## Authors
 
 Primary Author: Lauren E. Hostert
+Contributed Tutorials and Scripts: Dr. Yong Cao, Jared Parker, and Dr. Tyler Schartel
